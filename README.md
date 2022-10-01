@@ -1,9 +1,9 @@
 # Team
 1. Stepan
 2. Fomin
-3. 
+3.
 4. Герасимов Кирилл
-5. 
+5. Pasechnik Artem
 
 # Python on Replit
 
