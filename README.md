@@ -1,5 +1,5 @@
 # Team
-1. 
+1. Stepan
 2. Fomin
 3. 
 4. 
