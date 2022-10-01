@@ -1,6 +1,6 @@
 # Team
 1. Stepan
-2. 
+2. Fomin
 3. 
 4. 
 5. 
