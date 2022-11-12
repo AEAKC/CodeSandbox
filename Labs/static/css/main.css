@@ -1,0 +1,111 @@
+.description{
+    position: absolute;
+    top:350px;
+    left: 200px;
+    font-weight: bold ;
+}
+.description-2{
+    position: absolute;
+    top:420px;
+    left: 260px;
+    font-weight: bold;
+}
+#description-2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+
+}
+#description{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+
+}
+#name{
+    background: linear-gradient(#b774f5, #bc8def);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+#code-pictures{
+    position: absolute;
+    top:200px;
+    left: 1300px;
+}
+.btn {
+    display: inline-block;
+    background: linear-gradient(#cd69dc, #bc8def);
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 450px;
+    margin-left: 900px;
+}
+#btn-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: bolder;
+
+}
+
+/*@media screen and (min-width: 1500px){*/
+
+/*    .description-pos{*/
+/*        position: relative;*/
+/*        top:-30px*/
+/*    }*/
+
+/*    .description{*/
+/*        position: absolute;*/
+/*        top:230px;*/
+/*        left: 100px;*/
+/*        font-weight: bold;*/
+/*    }*/
+/*    .description-2{*/
+/*        position: absolute;*/
+/*        top:300px;*/
+/*        left: 220px;*/
+/*        font-weight: bold;*/
+/*    }*/
+/*    #description-2{*/
+/*        font-family: 'Roboto Mono', monospace;*/
+/*        font-size:30px;*/
+
+/*    }*/
+/*    #description{*/
+/*        font-family: 'Roboto Mono', monospace;*/
+/*        font-size: 30px;*/
+
+/*    }*/
+/*    #name{*/
+/*        background: linear-gradient(#b774f5, #bc8def);*/
+/*        text-transform: uppercase;*/
+/*        -webkit-background-clip: text;*/
+/*        -webkit-text-fill-color: transparent;*/
+/*        color: #0B2349;*/
+/*    }*/
+/*    #code-pictures{*/
+/*        position: absolute;*/
+/*        top:200px;*/
+/*        left: 1200px;*/
+/*        width: 430px;*/
+/*    }*/
+/*    .btn {*/
+/*        display: inline-block;*/
+/*        background: linear-gradient(#cd69dc, #bc8def);*/
+/*        color: black;*/
+/*        padding: 10px 30px;*/
+/*        text-decoration: none;*/
+/*        border-radius: 50px;*/
+/*        margin-top: 370px;*/
+/*        margin-left: 740px;*/
+/*    }*/
+/*    #btn-text{*/
+/*        font-family: 'Roboto Mono', monospace;*/
+/*        font-size: 40px;*/
+/*        margin-left: 20px;*/
+/*        font-weight: bolder;*/
+/*    }*/
+/*}*/
