@@ -15,7 +15,7 @@ class Exercise(models.Model):
 class Test(models.Model):
     test_input = models.CharField(max_length=255)
     for_task = models.ForeignKey(to='Exercise', on_delete=models.CASCADE, verbose_name="К задаче")
-    expected_output = models.CharField(max_length=255, verbose_name="Неправильный ввод")
+    expected_output = models.CharField(max_length=255, verbose_name="Ожидаемый ввод")
     is_exception = models.BooleanField(default=False, verbose_name="Ошибка")
 
     class Meta:
