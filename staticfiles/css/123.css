@@ -1,0 +1,63 @@
+#title{
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    left: 10%;
+    top:20px
+}
+header .header{
+    margin-top: -34px;
+    margin-left: -30px;
+    width: 1980px;
+    height: 100px;
+    background-image: linear-gradient(#b774f5, #bc8def);
+    box-shadow: 0 3px 30px 2px #4e3678;
+
+}
+.right-links{
+    position: relative;
+    text-align: right;
+    left: -100px;
+    top:-57%
+}
+.links-content{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 1500px){
+    #title{
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+        font-size: 40px;
+        left: 5%;
+        top:20px
+    }
+    header .header{
+    margin-top: -34px;
+    margin-left: -30px;
+    width: 1980px;
+    height: 100px;
+    background-image: linear-gradient(#b774f5, #bc8def);
+    box-shadow: 0 3px 30px 2px #4e3678;
+
+}
+.right-links{
+    position: relative;
+    text-align: right;
+    left: -100px;
+    top:-57%
+}
+.links-content{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+}
