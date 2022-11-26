@@ -33,38 +33,3 @@ header {
 }
 
 
-/*@media screen and (max-width: 1920px) and (min-width: 1080px) {*/
-/*    #title {*/
-/*        position: relative;*/
-/*        font-family: 'Roboto Mono', monospace;*/
-/*        font-size: 40px;*/
-/*        left: 7%;*/
-/*        top: 20px*/
-/*    }*/
-
-/*    header .header {*/
-/*        margin-top: -34px;*/
-/*        margin-left: -34px;*/
-/*        width: 1980px;*/
-/*        height: 100px;*/
-/*        background-image: linear-gradient(#b774f5, #bc8def);*/
-/*        box-shadow: 0 3px 30px 2px #4e3678;*/
-
-/*    }*/
-
-/*    .right-links {*/
-/*        position: relative;*/
-/*        text-align: center;*/
-/*        left: 700px;*/
-/*        top: -57%*/
-/*    }*/
-
-/*    .links-content {*/
-/*        font-family: 'Roboto Mono', monospace;*/
-/*        font-size: 30px;*/
-/*        padding: 0 10px;*/
-/*        cursor: pointer;*/
-/*        text-decoration: none;*/
-/*        color: black;*/
-/*    }*/
-/*}*/
