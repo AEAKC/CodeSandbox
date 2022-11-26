@@ -34,7 +34,10 @@
         <label class="text_ex" for="code-textarea"><h1>{{ text }}</h1></label>
         <textarea name="codefield" id="code-textarea" placeholder=""></textarea><br>
         <button id="code-btn"  type="submit">Отправить</button>
-        <h1 id="result" value="{{ result }}">{{ result }}</h1>
+        {% if result is not None%}
+        <h1 id="result" value="{{ result }}">{% if result %} Правильно {% else %} Неправильно {% endif %}</h1>
+      {% endif %}
+      
     </form>
 
 {% endblock %}
