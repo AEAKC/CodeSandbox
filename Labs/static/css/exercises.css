@@ -40,6 +40,15 @@
 	border-radius: 10px;
   background:#38d100;
 }
+.page-num-fail{
+  display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: 5px 0 0 0;
+	border: 1px solid #ed333b;
+	border-radius: 10px;
+  background:#e01b24;
+}
 #code-textarea{
     display: flex;
     flex-direction: row;

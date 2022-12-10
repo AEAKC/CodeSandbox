@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-_ri3lctt0=d2g@%653s0n719^qt!q4)(z9w^94+a-0+@#j0$7a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['5d8f7372-7a00-440f-95b4-5907cc5727e9.id.repl.co','aekas.newacidrain.repl.co']
+ALLOWED_HOSTS = [
+    "5d8f7372-7a00-440f-95b4-5907cc5727e9.id.repl.co",
+    "aekas.newacidrain.repl.co",
+    "10.30.1.238",
+]
 
 
 # Application definition
@@ -121,4 +125,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-LOGIN_URL='/login'
+LOGIN_URL = "/login"

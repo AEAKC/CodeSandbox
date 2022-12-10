@@ -14,7 +14,9 @@ class Exercise(models.Model):
 
 class Test(models.Model):
     test_input = models.CharField(max_length=255)
-    for_task = models.ForeignKey(to='Exercise', on_delete=models.CASCADE, verbose_name="К задаче")
+    for_task = models.ForeignKey(
+        to="Exercise", on_delete=models.CASCADE, verbose_name="К задаче"
+    )
     expected_output = models.CharField(max_length=255, verbose_name="Ожидаемый ввод")
     is_exception = models.BooleanField(default=False, verbose_name="Ошибка")
 
@@ -24,8 +26,13 @@ class Test(models.Model):
 
 
 class CompletedTasks(models.Model):
-    user = models.ForeignKey(User, verbose_name='Пользователь', on_delete=models.CASCADE)
-    exercise = models.ForeignKey(to='Exercise', verbose_name='Задача', on_delete=models.CASCADE)
+    user = models.ForeignKey(
+        User, verbose_name="Пользователь", on_delete=models.CASCADE
+    )
+    exercise = models.ForeignKey(
+        to="Exercise", verbose_name="Задача", on_delete=models.CASCADE
+    )
+    correct = models.BooleanField(default=False)
 
     class Meta:
         verbose_name = "Выполненая задача"

@@ -9,8 +9,8 @@
         <nav class="list-pages">
             <ul>
                 {% for p in next_page.paginator.page_range %}
-              <a id = "links" href="?page={{ p }}">
-                        <li id = "page-nums" class={% if p in completed_tasks%}"page-num-success" {%else%} "page-num"{%endif%}>
+              <a id = "links-{{p}}" href="?page={{ p }}">
+                        <li id = "page-nums" class={% if p in completed_tasks%}"page-num-success" {% elif p in incompleted_tasks %} page-num-fail {%else%} "page-num"{%endif%}>
                             {{ p }}
                         </li></a>
 
