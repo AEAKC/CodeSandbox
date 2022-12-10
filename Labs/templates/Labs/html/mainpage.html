@@ -14,22 +14,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-    <title>Title</title>
+    <title>АЕКАС</title>
 </head>
 <body>
 <header class="header">
-        <h2 id = "title">Название</h2>
+        <h2 id = "title"><a href="/" id = "title-link">АЕАКС</a></h2>
         <div class="right-links">
             <a href= "#" class="links-content">Курсы</a>
             <a href= "#" class="links-content">FAQ</a>
+          {% if user.is_authenticated %}
+            <a href={% url 'logout' %} class="links-content">Log out</a>
+          {%else%}
+            <a href="login"  class="links-content">Log in</a>
+          {%endif%}
         </div>
+
 </header>
 {% endblock %}
 {% block main %}
 <main>
     <img id="code-pictures" src="{% static 'pictures/coding.png' %}">
     <div class="description-pos">
-    <p class="description" id="description">Образовательная платформа <span id="name">НАЗВАНИЕ</span></p>
+    <p class="description" id="description">Образовательная платформа <span id="name">АЕАКС</span></p>
     <p class="description-2" id="description-2">Курсы по программированию на разных языках</p>
     </div>
     <a href="exercises/?page=1" class="btn"><span id="btn-text">Начнем!</span></a>

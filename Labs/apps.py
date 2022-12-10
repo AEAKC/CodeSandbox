@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class CodesandboxConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Labs'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "Labs"

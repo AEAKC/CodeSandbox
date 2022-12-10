@@ -1,19 +1,5 @@
 {% extends "Labs/html/mainpage.html" %}
-{% load static %}
-{% block header %}
-    {{ block.super }}
-    <!doctype html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="{% static 'css/exercises.css' %}">
-        <title>Title-2</title>
-    </head>
-{% endblock %}
-<body>
+
 {% block main %}
     <div class="ex-wrap">
         <p class="ex-text"></p>
@@ -23,9 +9,10 @@
         <nav class="list-pages">
             <ul>
                 {% for p in next_page.paginator.page_range %}
-                        <li id = "page-nums" class="page-num">
-                            <a id = "links" href="?page={{ p }}">{{ p }}</a>
-                        </li>
+              <a id = "links-{{p}}" href="?page={{ p }}">
+                        <li id = "page-nums" class={% if p in completed_tasks%}"page-num-success" {% elif p in incompleted_tasks %} page-num-fail {%else%} "page-num"{%endif%}>
+                            {{ p }}
+                        </li></a>
 
                 {% endfor %}
             </ul>
@@ -41,5 +28,3 @@
     </form>
 
 {% endblock %}
-</body>
-</html>
